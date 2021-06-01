@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+  font-style: 'Roboto', sans-serif;;
+  text-align: center;
+}
+.card_img{
+  width: 150px;
+  height: 220px;
+}
+*{
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+background-color:#343a40;
+float:  left;
+color: #f8f9fa;  
+border: 2px;
+padding-top: 50px;
+border-radius: 8px;
+position: relative;
+width: 30% !important;
+}
+.container1{
+  background-color:#343a40;
+  float: right;
+  color: #f8f9fa;  
+  border: 10px;
+  margin-right: 150px;
+  border-radius: 100px;
+  width: 50% !important;
+  height: 100px !important;
+  }
+  .news-title{
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .container2{
+    height: 150px;
+    width: 700px;
+    background-color:#343a40;
+   float:  right;  
+   border: 10px;
+   margin-top: 50px;
+   margin-right: 130px;
+    border-radius: 8px;
+    position: relative;
+    color: #f8f9fa;  
+  }
+td {
+  padding: 5px;
+}
+th{
+  padding-left: 4px;
+}
+.post-name,.post-date{
+  margin-left: 30px !important;
+  margin-top: 10px;
+
+}
+.post-img{
+  width: 100px;
+  height: 100px;
+  margin-left: 250px !important;
+  margin-top: -50px;
+}
