@@ -13,20 +13,22 @@ body{
   padding: 0px;
 }
 .container{
-background-color:#343a40;
+background-color:#f8f9fa;
 float:  left;
-color: #f8f9fa;  
+color: #007bff;
 border: 2px;
+margin-top: 100px;
 padding-top: 50px;
 border-radius: 8px;
 position: relative;
 width: 30% !important;
 }
 .container1{
-  background-color:#343a40;
+  background-color:#f8f9fa;
   float: right;
-  color: #f8f9fa;  
+  color: #007bff;  
   border: 10px;
+  margin-top: 100px;
   margin-right: 150px;
   border-radius: 100px;
   width: 50% !important;
@@ -40,14 +42,15 @@ width: 30% !important;
   .container2{
     height: 150px;
     width: 700px;
-    background-color:#343a40;
+    background-color:#f8f9fa;
    float:  right;  
    border: 10px;
    margin-top: 50px;
    margin-right: 130px;
+   margin-bottom: 10px;
     border-radius: 8px;
     position: relative;
-    color: #f8f9fa;  
+    color: #007bff;
   }
 td {
   padding: 5px;
