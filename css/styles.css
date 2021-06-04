@@ -2,15 +2,16 @@
 body{
   font-style: 'Roboto', sans-serif;;
   text-align: center;
-}
-.card_img{
-  width: 150px;
-  height: 220px;
+  background-color:#f8f9fa;
 }
 *{
   scroll-behavior: smooth;
   margin: 0px;
   padding: 0px;
+}
+.nav-input{
+  margin-right: 230px;
+  margin-top: 5px;
 }
 .container{
 background-color:#f8f9fa;
@@ -22,6 +23,19 @@ padding-top: 50px;
 border-radius: 8px;
 position: relative;
 width: 30% !important;
+text-align: center;
+}
+.container img{
+  border-radius: 100px;
+  align-items: center;
+  width:30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container td{
+  padding-left: 10px;
 }
 .container1{
   background-color:#f8f9fa;
@@ -31,8 +45,13 @@ width: 30% !important;
   margin-top: 100px;
   margin-right: 150px;
   border-radius: 100px;
-  width: 50% !important;
+  width: 600px !important;
   height: 100px !important;
+  }
+  .newsfeed-input{
+    margin-top: -40px !important;
+    margin-left: 250px !important;
+    text-align: right;
   }
   .news-title{
     text-align: left;
@@ -41,23 +60,18 @@ width: 30% !important;
   }
   .container2{
     height: 150px;
-    width: 700px;
+    width: 600px;
     background-color:#f8f9fa;
    float:  right;  
    border: 10px;
    margin-top: 50px;
-   margin-right: 130px;
+   margin-right: 150px;
    margin-bottom: 10px;
     border-radius: 8px;
     position: relative;
     color: #007bff;
   }
-td {
-  padding: 5px;
-}
-th{
-  padding-left: 4px;
-}
+
 .post-name,.post-date{
   margin-left: 30px !important;
   margin-top: 10px;
@@ -68,4 +82,25 @@ th{
   height: 100px;
   margin-left: 250px !important;
   margin-top: -50px;
+}
+.navbar {
+  /*top right bottom left */   
+  padding: 0 0 4.5rem;
+}
+  .nav-item {
+    margin-left: 10px;
+}
+  .nav-link {
+  font-size: 1.2rem;
+}
+::-webkit-input-placeholder { /* Edge */
+  color: #007bff !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #007bff !important;;
+}
+
+::placeholder {
+  color: #007bff !important;
 }
